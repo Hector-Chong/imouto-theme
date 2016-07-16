@@ -1,161 +1,162 @@
 
 
 
+/******************************************************************Global Start******************************************************************/
 
-                /******************************************************************Global Start******************************************************************/
+*{margin: 0};
+ol,ul{padding:0;}
+html,textarea,input,option,select,button{font:1.2em 'PT serif',\5FAE\8EDF\6B63\9ED1\9AD4,\5FAE\8F6F\96C5\9ED1,\534E\6587\7EC6\9ED1,serif,Microsoft Yahei,Hiragino Sans GB;color:#222;
+}
 
-                                    *{margin: 0};
-                                    ol,ul{padding:0;}
-                                    html,textarea,input,option,select,button{font:1.2em 'PT serif',\5FAE\8EDF\6B63\9ED1\9AD4,\5FAE\8F6F\96C5\9ED1,\534E\6587\7EC6\9ED1,serif,Microsoft Yahei,Hiragino Sans GB;color:#222;
-                                    }
+/*滑動條*/
+html::-webkit-scrollbar-track-piece{background:#444}
+html::-webkit-scrollbar{width:8px;height:8px}
+html::-webkit-scrollbar-thumb{height:40px;background-color:#666}
+html::-webkit-scrollbar-thumb:hover{background-color:#888}
 
-                                    /*皛穃�閙��*/
-                                    html::-webkit-scrollbar-track-piece{background:#444}
-                                    html::-webkit-scrollbar{width:8px;height:8px}
-                                    html::-webkit-scrollbar-thumb{height:40px;background-color:#666}
-                                    html::-webkit-scrollbar-thumb:hover{background-color:#888}
+h1,h2,h3,h4{font-weight:800;}
+textarea:focus,input:focus{outline:none;}
+::selection{background:rgba(0,149,255,0.1);}
+ul{list-style-type:none;}
+a{color:#949AA2;text-decoration:none;}
+img{border:0 none;}
+a,input{transition:.3s ease;}
+* html .c{height:1%;}
+/*.Cr{font-family:'PT serif',\5FAE\8EDF\6B63\9ED1\9AD4,\5FAE\8F6F\96C5\9ED1,\534E\6587\7EC6\9ED1;}*/
 
-                                    h1,h2,h3,h4{font-weight:800;}
-                                    textarea:focus,input:focus{outline:none;}
-                                    ::selection{background:rgba(0,149,255,0.1);}
-                                    ul{list-style-type:none;}
-                                    a{color:#949AA2;text-decoration:none;}
-                                    img{border:0 none;}
-                                    a,input{transition:.3s ease;}
-                                    * html .c{height:1%;}
-                                    /*.Cr{font-family:'PT serif',\5FAE\8EDF\6B63\9ED1\9AD4,\5FAE\8F6F\96C5\9ED1,\534E\6587\7EC6\9ED1;}*/
-
-                /******************************************************************Global End******************************************************************/
-
-
-
-                /******************************************************************Other Start******************************************************************/
-
-                                    .o{overflow:hidden;zoom:1;}
-                                    .l{float:left;}
-                                    .r{float:right;}
-                                    .p.c {border: none;}
-                                    .p.c:hover {box-shadow: none}
-                                    .c:after{content:'.';display:block;height:0;clear:both;visibility:hidden;}
-                                    #m{padding:1em 4.5em;margin-left: 300px}
-                                    .h{opacity:0}/*display:none;*/
-
-                /******************************************************************Other End******************************************************************/
+/******************************************************************Global End******************************************************************/
 
 
 
+/******************************************************************Other Start******************************************************************/
 
-                /******************************************************************Header Start******************************************************************/
+.o{overflow:hidden;zoom:1;}
+.l{float:left;}
+.r{float:right;}
+.p.c {border: none;}
+.p.c:hover {box-shadow: none}
+.c:after{content:'.';display:block;height:0;clear:both;visibility:hidden;}
+#m{padding:1em 4.5em;margin-left: 300px}
+.h{opacity:0}/*display:none;*/
 
-                                    header{position:fixed;top:0;left:0;background-color:#222222;padding:0 .8em;width:280px;height:100%;text-align:center;margin: 0 auto}
-                                    header a{color: #e6e6e6;}
-                                    #avatar{display:block;margin:30px auto 12px auto;width:8.5em;border-radius: 100%;transition:all 1.2s cubic-bezier(0.99,-0.3, 0, 1.01)}
-                                    #avatar:hover{transform: rotate(360deg)}
-                                    h1{font-size:2.2em;line-height:1.5;color: #FFFFFF}
-                                    header p{padding:0.1em 0;font-size:.85em;color:#AFAFAF;font-style: oblique;font-weight:bold}
-                                    .header-info{position:absolute;bottom:10px;color: #AFAFAF;line-height: 1.35em;}
-
-                                    #nav{margin-top: 30px;padding:0;overflow:hidden;}
-                                    #nav li{display:block;margin:0 0 10px 5px;vertical-align:top;font-weight: bold;text-align: left;}
-                                    #nav li a{display:block;padding:10px 0 10px 15px;color: #AFAFAF;font-size: 1.2em}
-                                    #nav li a:hover{background-color: #454545;color:#FFFFFF}
-                                    #nav li .a{padding:10px 0 10px 25px;background-color: #6c6c6c;color: #FFFFFF;font-size:1.3em;}
-
-                /******************************************************************Header End******************************************************************/
-
-
-
-                /******************************************************************Passage Start******************************************************************/
-
-                                    .p{margin:0 auto;padding:3em 2em;transition: all 120ms;border-bottom: solid 1px #dcdcdc}
-                                    .p:hover{-webkit-box-shadow: 0 0 20px #c4c4c4;-moz-box-shadow: 0 0 20px #c4c4c4;box-shadow: 0 0 20px #c4c4c4;}
-                                    .p-title{color: #222222;font-size:2.5em;line-height:1.2em;padding:.2em .2em 0;text-align:center;}
-                                    .p a{color: #777777}
-                                    .cover{background:url(loading.gif) 50% 50% no-repeat;text-align:center;}
-                                    .cover img{max-width:100%;display:inline-block;border-radius:.5em;}
-                                    .cover img.h{min-height:300px;}
-
-                                    .p-text h3{padding:2em 10px 1em;font-size:1.5em;}
-                                    .p-text h4{padding:1em 10px 0;font-size:1.3em;}
-
-                                    .p-text p{line-height:2em;padding:1em 0;text-indent:2em;}
-                                    .p-text img{max-width:100%;}
-                                    .p-text p img{max-width:100%;display:block;margin:0em auto;border-radius:.5em;}
-                                    .p-text del{color:#999;font-size:.8em;}
-                                    .p-text blockquote {background: #EEE;padding: 1em 1em;color: #333;border-radius:20px;font-size:20px;line-height:25px;text-align: center;}
-                                    .p-text ul{list-style-type:disc;padding:1em 1em 1em 4em;}
-
-                                    .p-text .more{padding:0 0 2em;text-align:center;text-indent:0;}
-
-                                    .p-meta{line-height:2em;text-align:center;padding-bottom:1em;}
-                                    .p-meta li{padding:0 .2em;display:inline-block;vertical-align:top;}
-
-                                    .p time{display:block;color:#666;}
-                                    .p.arti{box-shadow: none;border:none}
-                                    img.cd{border-radius: 100%}
-                                    .at{color: #78aef6;}
-
-
-                                    .loading{margin:0 auto;height:300px;display:block;background:url(loading.gif) 50% 50% no-repeat;}
-                                    footer{margin-top:30px;width:100%;font-size:1.2em;text-align:center;color: #989898}
-
-                                    #more{font-size:2em;padding-bottom:2em;text-align:center;}
-                                    #more a{padding:1em 0;border-radius:1em;display:block;}
-                                    #more a:hover{background:#EEE;}
-                                    .cover img,header img{transition:opacity .3s ease;}
-                                    .text{border:1px solid #FFF;background:#EEE;border-radius:.5em;}
-                                    xmp{display:none;}
-
-                /******************************************************************Passage End******************************************************************/
-
-
-
-                /******************************************************************Backtop Icon Start******************************************************************/
-
-                                    #backtop{
-                                        width: 30px;
-                                        height: 65px;
-                                        position: fixed;
-                                        bottom: 0;
-                                        right: 50px;
-                                        background-color: #222222;
-                                    }
-                                    #backtop:before{
-                                        content: '';
-                                        display: block;
-                                        width: 0;
-                                        height: 0;
-                                        font-size: 0;
-                                        position: absolute;
-                                        bottom: 65px;
-                                        border-width: 15px;
-                                        border-style: dashed dashed solid dashed;
-                                        border-color: transparent transparent #222222 transparent;
-                                    }
-
-                /******************************************************************Backtop Icon End******************************************************************/
+/******************************************************************Other End******************************************************************/
 
 
 
 
-                /******************************************************************Phone******************************************************************/
+/******************************************************************Header Start******************************************************************/
 
-                                    @media(max-width:800px){
-                                        header{margin-top:40px;position: relative;background-color: transparent;}
-                                        header a{color:#222222}
-                                        header h1{font-size: 3.5em}
-                                        header p{font-size: 1.2em}
-                                        #nav,#avatar,.header-info{display: none}
-                                        .p{transition: none}
-                                        #m{margin:0 auto;padding:0;width:720px;}
-                                        .p-text img{max-width:672px;}
-                                        .p-text p img{max-width:720px;}
-                                        #m .DS{width:660px;font-size:1.4em;}
+header{position:fixed;top:0;left:0;background-color:#222222;padding:0 .8em;width:280px;height:100%;text-align:center;margin: 0 auto}
+header a{color: #e6e6e6;}
+#avatar{display:block;margin:30px auto 12px auto;width:8.5em;border: 5px rgba(169,169,169,.55) solid;border-radius: 100%;transition:all 1.2s cubic-bezier(0.99,-0.3, 0, 1.01)}
+#avatar:hover{transform: rotate(360deg)}
+h1{font-size:2.2em;line-height:1.5;color: #FFFFFF}
+header p{padding:0.1em 0;font-size:.85em;color:#AFAFAF;font-style: oblique;font-weight:bold}
+.header-info{position:absolute;bottom:10px;color: #AFAFAF;line-height: 1.35em;}
 
-                                        p{-webkit-text-size-adjust:100%;font-size:1.5em;}
-                                    }
-                                    @media(max-width:720px){
-                                        .cover img,.p-text p img{border-radius:0;}
-                                    }
+#nav{margin-top: 30px;padding:0;overflow:hidden;}
+#nav li{display:block;margin:0 0 10px 5px;vertical-align:top;font-weight: bold;text-align: left;}
+#nav li a{display:block;padding:10px 0 10px 15px;color: #AFAFAF;font-size: 1.2em}
+#nav li a:hover{background-color: #454545;color:#FFFFFF}
+#nav li .a{padding:10px 0 10px 25px;background-color: #6c6c6c;color: #FFFFFF;font-size:1.3em;}
 
-                /******************************************************************Phone End******************************************************************/
+/******************************************************************Header End******************************************************************/
+
+
+
+/******************************************************************Passage Start******************************************************************/
+
+.p{margin:0 auto;padding:3em 2em;transition: all 120ms;border-bottom: solid 1px #dcdcdc}
+.p:hover{-webkit-box-shadow: 0 0 20px #c4c4c4;-moz-box-shadow: 0 0 20px #c4c4c4;box-shadow: 0 0 20px #c4c4c4;}
+.p-title{color: #222222;font-size:2.5em;line-height:1.2em;padding:.2em .2em 0;text-align:center;}
+.p a{color: #777777}
+.cover{background:url(loading.gif) 50% 50% no-repeat;text-align:center;}
+.cover img{max-width:100%;display:inline-block;border-radius:.5em;}
+.cover img.h{min-height:300px;}
+
+.p-text h3{padding:2em 10px 1em;font-size:1.5em;}
+.p-text h4{padding:1em 10px 0;font-size:1.3em;}
+
+.p-text p{line-height:2em;padding:1em 0;text-indent:2em;}
+.p-text img{max-width:100%;}
+.p-text p img{max-width:100%;display:block;margin:0em auto;border-radius:.5em;}
+.p-text del{color:#999;font-size:.8em;}
+.p-text blockquote {background: #EEE;padding: 1em 1em;color: #333;border-radius:20px;font-size:20px;line-height:25px;text-align: center;}
+.p-text ul{list-style-type:disc;padding:1em 1em 1em 4em;}
+
+.p-text .more{padding:0 0 2em;text-align:center;text-indent:0;}
+
+.p-meta{line-height:2em;text-align:center;padding-bottom:1em;}
+.p-meta li{padding:0 .2em;display:inline-block;vertical-align:top;}
+
+.p time{display:block;color:#666;}
+.P-body>#m>.p{box-shadow: none;border:none}
+img.cd{border-radius: 100%}
+.at{color: #78aef6;}
+
+
+.loading{margin:0 auto;height:300px;display:block;background:url(loading.gif) 50% 50% no-repeat;}
+footer{margin-top:30px;width:100%;font-size:1.2em;text-align:center;color: #989898}
+
+#more{font-size:2em;padding-bottom:2em;text-align:center;}
+#more a{padding:1em 0;border-radius:1em;display:block;}
+#more a:hover{background:#EEE;}
+.cover img,header img{transition:opacity .3s ease;}
+.text{border:1px solid #FFF;background:#EEE;border-radius:.5em;}
+xmp{display:none;}
+
+/******************************************************************Passage End******************************************************************/
+
+
+
+/******************************************************************Backtop Icon Start******************************************************************
+
+                    #backtop{
+                        width: 30px;
+                        height: 65px;
+                        position: fixed;
+                        bottom: 0;
+                        right: 50px;
+                        background-color: #222222;
+                    }
+                    #backtop:before{
+                        content: '';
+                        display: block;
+                        width: 0;
+                        height: 0;
+                        font-size: 0;
+                        position: absolute;
+                        bottom: 65px;
+                        border-width: 15px;
+                        border-style: dashed dashed solid dashed;
+                        border-color: transparent transparent #222222 transparent;
+                    }
+
+                    之所以注释掉是因为还要写一个脚本，否则这个固定图标很鸡肋，可 scrollTo() 实现
+
+******************************************************************Backtop Icon End******************************************************************/
+
+
+
+
+/******************************************************************Phone******************************************************************/
+
+@media(max-width:800px){
+    header{margin-top:40px;position: relative;background-color: transparent;}
+    header a{color:#222222}
+    header h1{font-size: 3.5em}
+    header p{font-size: 1.2em}
+    #nav,#avatar,.header-info{display: none}
+    .p{transition: none}
+    #m{margin:0 auto;padding:0;width:720px;}
+    .p-text img{max-width:672px;}
+    #S{display: none}
+    #m .DS{width:660px;font-size:1.4em;}
+
+    p{-webkit-text-size-adjust:100%;font-size:1.5em;}
+}
+@media(max-width:720px){
+    .cover img,.p-text p img{border-radius:0;}
+}
+
+/******************************************************************Phone End******************************************************************/
